@@ -33,7 +33,7 @@ export class SolanaX402Api implements ICredentialType {
       default: '',
       required: true,
       placeholder: '7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs',
-      description: 'Your Solana wallet address to receive USDC payments',
+      description: 'Your Solana wallet address to receive SOL payments',
     },
     {
       displayName: 'RPC URL',

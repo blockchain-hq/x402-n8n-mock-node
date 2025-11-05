@@ -25,7 +25,7 @@ npm install n8n-nodes-solana-x402
 Returns an HTTP 402 status with payment requirements for clients to pay in Solana USDC.
 
 **Parameters:**
-- **Amount (USDC)**: Amount required (e.g., 0.01 for 1 cent)
+- **Amount (SOL)**: Amount required (e.g., 0.01 for 1 cent)
 - **Resource ID**: Optional unique identifier
 
 **Output:**
