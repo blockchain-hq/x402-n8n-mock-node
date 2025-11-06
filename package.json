@@ -1,6 +1,6 @@
 {
   "name": "@blockchainhq-xyz/n8n-nodes-solana-x402",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "n8n node for Solana x402 payment protocol - Return HTTP 402 Payment Required",
   "keywords": [
     "n8n-community-node-package",
@@ -21,7 +21,7 @@
   },
   "main": "index.js",
   "scripts": {
-  "build": "tsc && cp nodes/SolanaX402/solana.svg dist/nodes/SolanaX402/ && cp nodes/SolanaX402/SolanaX402.node.json dist/nodes/SolanaX402/ 2>/dev/null || true",
+    "build": "tsc && cp nodes/SolanaX402/solana.svg dist/nodes/SolanaX402/ && cp nodes/SolanaX402/SolanaX402.node.json dist/nodes/SolanaX402/ 2>/dev/null || true",
     "dev": "tsc --watch",
     "format": "prettier nodes credentials --write",
     "lint": "eslint nodes credentials package.json",
