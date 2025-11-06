@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-solana-x402",
+  "name": "@blockchainhq-xyz/n8n-nodes-solana-x402",
   "version": "1.0.0",
   "description": "n8n node for Solana x402 payment protocol - Return HTTP 402 Payment Required",
   "keywords": [
