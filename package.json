@@ -21,7 +21,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "tsc && cp -r nodes/**/*.{json,svg} dist/nodes/",
+  "build": "tsc && cp nodes/SolanaX402/solana.svg dist/nodes/SolanaX402/ && cp nodes/SolanaX402/SolanaX402.node.json dist/nodes/SolanaX402/ 2>/dev/null || true",
     "dev": "tsc --watch",
     "format": "prettier nodes credentials --write",
     "lint": "eslint nodes credentials package.json",
