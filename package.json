@@ -21,7 +21,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "tsc && cp nodes/SolanaX402/pocket.svg dist/nodes/SolanaX402/ && cp nodes/SolanaX402/SolanaX402.node.json dist/nodes/SolanaX402/ 2>/dev/null || true",
+    "build": "tsc && cp nodes/PocketNodeMock/pocket.svg dist/nodes/PocketNodeMock/ && cp nodes/PocketNodeMock/PocketNodeMock.node.json dist/nodes/PocketNodeMock/ 2>/dev/null || true",
     "dev": "tsc --watch",
     "format": "prettier nodes credentials --write",
     "lint": "eslint nodes credentials package.json",
@@ -49,6 +49,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "x402-client-sdk": "^1.0.0",
     "x402-server-sdk": "^1.0.0"
   }
 }

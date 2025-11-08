@@ -31,9 +31,9 @@ export class SolanaX402Api implements ICredentialType {
       name: 'walletAddress',
       type: 'string',
       default: '',
-      required: true,
+      required: false,
       placeholder: '7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs',
-      description: 'Your Solana wallet address to receive USDC payments',
+      description: 'Your Solana wallet address to receive USDC payments (will be auto-generated if not provided)',
     },
   ];
 }
